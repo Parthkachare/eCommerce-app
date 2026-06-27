@@ -1,0 +1,60 @@
+.filters{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    padding:30px;
+
+}
+
+.filters input,
+
+.filters select{
+
+    padding:12px;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+
+    min-width:220px;
+
+}
+
+
+.product-list {
+
+
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                280px,
+                1fr
+            )
+        );
+
+    gap: 30px;
+
+    padding: 40px;
+
+}
+
+
+.product-list__message {
+
+    text-align: center;
+
+    margin-top: 100px;
+
+    color: #6a0dad;
+
+}

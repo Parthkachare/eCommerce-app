@@ -1,0 +1,57 @@
+.not-found{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:80vh;
+
+    text-align:center;
+
+}
+
+.not-found h1{
+
+    font-size:6rem;
+
+    color:var(--primary);
+
+}
+
+.not-found h2{
+
+    margin-bottom:15px;
+
+}
+
+.not-found p{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.not-found__button{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+}
+
+.not-found__button:hover{
+
+    background:var(--primary-dark);
+
+}

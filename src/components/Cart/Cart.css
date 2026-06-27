@@ -1,0 +1,215 @@
+.cart-container{
+
+    display:flex;
+
+    gap:30px;
+
+    padding:40px;
+
+    align-items:flex-start;
+
+}
+
+.cart-left{
+
+    flex:3;
+
+}
+
+.cart-right{
+
+    flex:1;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+    position:sticky;
+
+    top:100px;
+
+}
+
+.cart-card{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.cart-image{
+
+    width:130px;
+
+    height:130px;
+
+    object-fit:contain;
+
+}
+
+.cart-info{
+
+    flex:1;
+
+    margin-left:25px;
+
+}
+
+.cart-info h3{
+
+    font-size:20px;
+
+    margin-bottom:10px;
+
+}
+
+.category{
+
+    color:gray;
+
+    margin-bottom:10px;
+
+}
+
+.cart-actions{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.qty{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.qty button{
+
+    width:35px;
+
+    height:35px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:var(--primary);
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+.remove-btn{
+
+    background:#ff4d4d;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.checkout-btn{
+
+    display:block;
+
+    margin-top:25px;
+
+    background:var(--primary);
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.shop-btn{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:15px 30px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+}
+
+.cart-empty{
+
+    text-align:center;
+
+    padding:120px;
+
+}
+
+@media(max-width:900px){
+
+.cart-container{
+
+    flex-direction:column;
+
+}
+
+.cart-card{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.cart-info{
+
+    margin:20px 0;
+
+}
+
+}

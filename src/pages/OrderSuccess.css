@@ -1,0 +1,53 @@
+.success{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:80vh;
+
+    text-align:center;
+
+}
+
+.success h1{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.success p{
+
+    margin:8px;
+
+    font-size:18px;
+
+}
+
+.success__button{
+
+    margin-top:25px;
+
+    padding:14px 28px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+}
+
+.success__button:hover{
+
+    background:var(--primary-dark);
+
+}
